@@ -23,26 +23,27 @@ const Home = ({ setUserInput }: HomeProps) => {
 
     const suggestionCards = [
         {
-            title: 'Policy Documentation',
-            description: 'Give a brief summary of the document related to central banking policies.',
+            title: 'Add Two Numbers in Python',
+            description: 'Write Python code to add two numbers.',
             icon: <FaHeart size={20} />,
         },
         {
-            title: 'Suspicious Activity Response',
-            description: 'How do we respond if we suspect a customer is trying to evade financial sanctions?',
+            title: 'Extract All Employees (SQL)',
+            description: 'Write sql query to extract all employees',
             icon: <FaGift size={20} />,
         },
         {
-            title: 'Error Correction Process',
-            description: 'What is the official process for submitting a grievance or correction request if a false positive occurs?',
+            title: 'Generate Random Numbers in Python',
+            description: 'Write python code to generate random numbers',
             icon: <FaHandHoldingUsd size={20} />,
         },
         {
-            title: 'Comparison and Screening Frequency',
-            description: 'What is the difference between the UN Consolidated List and the UAE Local Terrorist List, and how often should banks screen against them?',
+            title: 'Get Latest Data Entry (SQL)',
+            description: 'Write sql query to get latest data entry in db',
             icon: <FaMapMarkedAlt size={20} />,
         },
     ];
+
 
     const handleCardClick = (description: string) => {
         setInput(description);
